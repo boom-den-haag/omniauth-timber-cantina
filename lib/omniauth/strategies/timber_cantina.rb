@@ -14,7 +14,10 @@ module OmniAuth
 
       info do
         {
-          :email => raw_info["email"]
+          :email                   => raw_info["email"],
+          :name                    => raw_info["name"],
+          :api_access_enabled      => raw_info["api_access_enabled"],
+          :application_permissions => raw_info["application_permissions"]
           # and anything else you want to return to your API consumers
         }
       end
@@ -22,6 +25,7 @@ module OmniAuth
       def raw_info
         @raw_info ||= access_token.get('/api/v1/me.json').parsed
       end
+
     end
   end
 end
