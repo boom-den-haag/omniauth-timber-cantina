@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'omniauth-timber-cantina'
   spec.version       = Omniauth::Timber::Cantina::VERSION
   spec.authors       = ['Johan Kok']
-  spec.email         = ['info@johankok.nl']
+  spec.email         = ['webmaster@boomdenhaag.nl']
   spec.summary       = %q{OmniAuth strategy for Timber Cantina SSO application.}
   spec.description   = %q{OmniAuth strategy for Timber Cantina SSO application.}
-  spec.homepage      = 'https://github.com/johankok/omniauth-timber-cantina'
+  spec.homepage      = 'https://github.com/boom-den-haag/omniauth-timber-cantina'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")

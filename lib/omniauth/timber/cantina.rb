@@ -1,4 +1,4 @@
-require "omniauth/timber/cantina/version"
+require 'omniauth/timber/cantina/version'
 
 module Omniauth
   module Timber
